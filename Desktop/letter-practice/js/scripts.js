@@ -7,6 +7,7 @@ $(document).ready(function() {
     $(".name-first").text(nameFirstInput);
     $(".name-last").text(nameLastInput);
 
+    $(".panel").show();
     $("#letter").show();
 
     event.preventDefault();

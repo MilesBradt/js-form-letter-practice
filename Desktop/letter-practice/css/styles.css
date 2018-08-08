@@ -1,13 +1,34 @@
 #letter {
   display: none;
+  padding: 10px;
 }
 
+.form-group {
+  width: 240px;
+}
 
-button {
-  padding: 25px;
+.address {
 
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.panel {
+  display: none;
+  margin: 0 auto;
+  font-family: fantasy;
+  width: 720px;
+  height: 400px;
+  font-size: auto;
+  padding: 20px;
+  background-color: #F2F2F2;
+  color: #00419C;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+body {
+  background-color: #A1DCF0;
 }
