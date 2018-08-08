@@ -4,8 +4,8 @@ $(document).ready(function() {
     var nameFirstInput = $("input#name-first").val();
     var nameLastInput = $("input#name-last").val();
 
-    $(".name-first").append(nameFirstInput);
-    $(".name-last").append(nameLastInput);
+    $(".name-first").text(nameFirstInput);
+    $(".name-last").text(nameLastInput);
 
     $("#letter").show();
 
