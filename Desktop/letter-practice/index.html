@@ -1,0 +1,52 @@
+<!-- Form Letter
+Make a form letter where the user inputs their name, and they get back a letter addressed to them. Feel free to use lorum ipsum for the text of the letter. Use Bootstrap and your knowledge of CSS to make the letter look like a letter or virtual postcard. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Give your name to recieve a letter addressed to you</h1>
+      <!-- User Input Name -->
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name-first">Your first name</label>
+            <input id="name-first" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="name-last">Your first name</label>
+            <input id="name-last" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+
+
+
+      <!-- Fake Address -->
+      <div id="letter">
+        <div class="address">
+          <p>
+            <span class="name-first"></span>
+            <span class="name-last"></span>
+            <br>
+            789 Coconut St.
+            <br>
+            Honolulu, Texas 78249
+          </p>
+        </div>
+      <!-- Fake Letter -->
+
+        <h3>Dear, <span class="name-first"></span></h3>
+        <br>
+        <p>Phasellus et nibh id diam maximus ullamcorper. Nam leo risus, mollis eu facilisis vel, mattis id massa. Phasellus ac euismod enim. Mauris tincidunt tortor non feugiat posuere. Sed vestibulum justo et finibus ultricies. Pellentesque vel imperdiet erat. Donec sed suscipit metus, a dapibus lacus. Duis a mauris et turpis pretium euismod. Fusce molestie lacus vitae urna ultricies, non placerat nulla accumsan. Nullam venenatis, mi ut vehicula tempor, arcu tellus sollicitudin nisi, nec venenatis tortor metus a leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </body>
+</html>
